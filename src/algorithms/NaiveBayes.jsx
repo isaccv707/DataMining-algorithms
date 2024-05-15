@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export const NaiveBayes = () => {
   // Estado para almacenar el conjunto de datos ingresado por el usuario

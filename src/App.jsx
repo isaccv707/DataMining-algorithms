@@ -1,14 +1,11 @@
-import { NaiveBayes } from "./algorithms/NaiveBayes"
-import { OneRule } from "./algorithms/OneRule"
-import { ZeroRule } from "./algorithms/ZeroRule"
-
+import { Knn } from './algorithms/Knn'
 
 export const App = () => {
   return (
-    <div className="flex justify-between items-start">
-      <ZeroRule/>
-      <OneRule/>
-      <NaiveBayes/>
+    <div className='flex justify-center'>
+      <div>
+        <Knn/>
+      </div>
     </div>
   )
 }
